@@ -80,11 +80,10 @@ WSGI_APPLICATION = 'clinica.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'nuevaB',
-        'USER': 'root',
-        'PASSWORD': '', 
-        'HOST':'localhost',
-        'PORT':'3306'
+        'NAME': 'mmitur$bd_clinica',
+        'USER': 'mmitur',
+        'PASSWORD': 'casa11365', 
+        'HOST':'mmitur.mysql.pythonanywhere-services.com',
     }
 }
 
